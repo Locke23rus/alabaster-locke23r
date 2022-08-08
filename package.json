@@ -1,0 +1,21 @@
+{
+  "name": "alabaster-locke23r",
+  "displayName": "Alabaster locke23r",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Alabaster locke23r",
+        "uiTheme": "vs",
+        "path": "./themes/Alabaster locke23r-color-theme.json"
+      }
+    ]
+  }
+}
