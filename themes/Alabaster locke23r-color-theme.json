@@ -27,19 +27,47 @@
   },
   "tokenColors": [
     {
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "markup.deleted.diff"
+      ],
       "settings": {
         "foreground": "#AA3731"
       }
     },
     {
-      "scope": ["string", "string.regexp", "constant.other.symbol"],
+      "scope": [
+        "string",
+        "string.regexp",
+        "constant.other.symbol",
+        "markup.inline.raw.string",
+        "markup.inserted.diff",
+        "entity.name.type.lifetime"
+      ],
       "settings": {
         "foreground": "#448C27"
       }
     },
     {
-      "scope": ["constant.character.escape", "punctuation"],
+      "scope": [
+        "constant.character.escape",
+        "punctuation",
+        "keyword.other.rust",
+        "keyword.other.fn.rust",
+        "keyword.operator.borrow",
+        "keyword.operator.arrow",
+        "keyword.operator.namespace",
+        "keyword.control.def",
+        "keyword.control.class",
+        "keyword.control.ruby",
+        "keyword.control.export",
+        "keyword.control.import",
+        "meta.brace.round",
+        "storage.modifier.rust",
+        "storage.type.function.arrow.js",
+        "storage.type.js"
+      ],
       "settings": {
         "foreground": "#777777"
       }
@@ -49,7 +77,9 @@
         "constant.numeric",
         "constant.character",
         "constant.keyword",
-        "constant"
+        "constant",
+        "meta.diff.header",
+        "variable.other.constant.ruby"
       ],
       "settings": {
         "foreground": "#811ABC"
@@ -74,7 +104,8 @@
         "meta.diff.index",
         "meta.separator",
         "meta.diff.header.from-file",
-        "meta.diff.header.to-file"
+        "meta.diff.header.to-file",
+        "source.diff"
       ],
       "settings": {
         "foreground": "#434343"
@@ -82,7 +113,8 @@
     },
     {
       "scope": [
-        "source.json meta.structure.dictionary.json support.type.property-name.json"
+        "source.json meta.structure.dictionary.json support.type.property-name.json",
+        "keyword.other.special-method.ruby"
       ],
       "settings": {
         "foreground": "#000000"
